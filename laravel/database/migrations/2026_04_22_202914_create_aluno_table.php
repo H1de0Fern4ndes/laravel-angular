@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('nome');
-            /* $table->string('nome', 100); quantidade de 100 caracteres */
         });
     }
 
